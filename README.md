@@ -1,2 +1,2 @@
 # codingground
-Main Repository for Coding Ground
+Most things I do will go here as I primarily use coding ground
