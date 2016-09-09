@@ -3,15 +3,13 @@
 # I consent to this as open-source
 # I request credit is given where credit is due if this is used professionally in anyway
 # Well lets get into this program
-# This makes sure the 'colorize' gem is installed color console outputs
-require 'colorize'
 # This filthy eyesore is a time zone checker for the clock functions
-puts ("\nThis is a pre-emptive time zone check\nSet it to '0' if you don't plan to use the clock functions\n\nThe console time is:\n" + Time.now.to_s + "\nyyyy-mm-dd hh:mm:ss +UTC Offset\n\nHow many hours ahead/behind are you?(Will check minutes next)\n").colorize(:blue)
+puts ("\nThis is a pre-emptive time zone check\nSet it to '0' if you don't plan to use the clock functions\n\nThe console time is:\n" + Time.now.to_s + "\nyyyy-mm-dd hh:mm:ss +UTC Offset\n\nHow many hours ahead/behind are you?(Will check minutes next)\n")
 hours = gets.chomp.to_i * 60 * 60
-puts ("\nMinutes?\n").colorize(:blue)
+puts ("\nMinutes?\n")
 minutes = gets.chomp.to_i * 60
 zone = hours + minutes
-puts ("\n-ahead- or -behind-\n").colorize(:blue)
+puts ("\n-ahead- or -behind-\n")
 direct = gets.chomp
 case direct
 when "ahead"
@@ -23,87 +21,87 @@ end
 # Program will stop if continue doesn't equal 1
 continue = 1
 while continue === 1 do
-puts ("\n(Type the items wrapped by hyphens to proceed with your option)\nWhat are we doing today?\n-clock- -anagram- -compliment- -color- -math-\n").colorize(:blue)
+puts ("\n(Type the items wrapped by hyphens to proceed with your option)\nWhat are we doing today?\n-clock- -anagram- -compliment- -color- -math-\n")
 program = gets.chomp.downcase
 case program
 when "anagram"
     #This is an anagram solver [Version: The Blues]
     #This needs to be upgraded to a be able to have permutatons of any and all lengths
-    puts ("\nWhat is your phrase?\n").colorize(:blue)
+    puts ("\nWhat is your phrase?\n")
     input = gets.chomp
     filtered = input.gsub(/\p{^Alnum}/, '')
     source = filtered.downcase.each_char.to_a
-    puts ("\nPlease hold...\n").colorize(:blue)
+    puts ("\nPlease hold...\n")
     arr = source.permutation(3).to_a.uniq.sort #Change the number to make words of different lengths
     arr.each do |inner|
-        puts inner.join("").colorize(:blue) # Empty string for no spaces.
+        puts inner.join("") # Empty string for no spaces.
     end
     source.clear
 when "clock"
     #This is a countdown/timer program [Version: The Blues]
-    puts ("\n-countdown- or -timer-\n").colorize(:blue)
+    puts ("\n-countdown- or -timer-\n")
     clockType = gets.chomp.downcase
     case clockType
     when "countdown"
-        puts ("\nThe current time is:\n" + (Time.now-local).to_s + "\n\nWhat time are you waiting for?\nyear-month-day-hour-minute-second\nyyyy-mm-dd-hh-mm-ss\n").colorize(:blue)
-        puts ("Year(s): ").colorize(:blue)
+        puts ("\nThe current time is:\n" + (Time.now-local).to_s + "\n\nWhat time are you waiting for?\nyear-month-day-hour-minute-second\nyyyy-mm-dd-hh-mm-ss\n")
+        puts ("Year(s): ")
         year = gets.chomp
-        puts ("Month(s): ").colorize(:blue)
+        puts ("Month(s): ")
         month = gets.chomp
-        puts ("Day(s): ").colorize(:blue)
+        puts ("Day(s): ")
         day = gets.chomp
-        puts ("Hour(s): ").colorize(:blue)
+        puts ("Hour(s): ")
         hour = gets.chomp
-        puts ("Minute(s): ").colorize(:blue)
+        puts ("Minute(s): ")
         minute = gets.chomp
-        puts ("Second(s): ").colorize(:blue)
+        puts ("Second(s): ")
         second = gets.chomp
         a = Time.new(year, month, day, hour, minute, second)
         b = Time.now - local
         c = a - b
         d = c.round
-        puts ("\n").colorize(:blue)
+        puts ("\n")
         d.times do |x|
-            puts ("It is a second closer to your event: " + (Time.now-local).to_s + "\n").colorize(:blue)
+            puts ("It is a second closer to your event: " + (Time.now-local).to_s + "\n")
         sleep(1)
         end
-        puts ("\nIt's is now: " + (Time.now-local).to_s + "\nIt is now time for your event\n").colorize(:blue)
+        puts ("\nIt's is now: " + (Time.now-local).to_s + "\nIt is now time for your event\n")
     when "timer"
-        puts ("\nHow long are we waiting?\n").colorize(:blue)
+        puts ("\nHow long are we waiting?\n")
         time = gets.chomp.to_i
-        puts ("\nWhat is this in?\n-day- -hour- -minute- -second-\n").colorize(:blue)
+        puts ("\nWhat is this in?\n-day- -hour- -minute- -second-\n")
         timerType = gets.chomp.downcase
-        puts ("\n").colorize(:blue)
+        puts ("\n")
         case timerType
             when "day"
                 time.times do |x|
-                    puts ("It has been a day: " + (Time.now-local).to_s + "\n").colorize(:blue)
+                    puts ("It has been a day: " + (Time.now-local).to_s + "\n")
                     sleep(86400)
                 end
-                puts ("\nIt is now: " + (Time.now-local).to_s + "\nIt's time to go check on that thing you were waiting on\n").colorize(:blue)
+                puts ("\nIt is now: " + (Time.now-local).to_s + "\nIt's time to go check on that thing you were waiting on\n")
             when "hour"
                 time.times do |x|
-                    puts ("It has been an hour: " + Time.now.to_s + "\n").colorize(:blue)
+                    puts ("It has been an hour: " + Time.now.to_s + "\n")
                     sleep(3600)
                 end
-                puts ("\nIt is now: " + (Time.now-local).to_s + "\nIt's time to go check on that thing you were waiting on\n").colorize(:blue)
+                puts ("\nIt is now: " + (Time.now-local).to_s + "\nIt's time to go check on that thing you were waiting on\n")
             when "minute"
                 time.times do |x|
-                    puts ("It has been a minute: " + (Time.now-local).to_s + "\n").colorize(:blue)
+                    puts ("It has been a minute: " + (Time.now-local).to_s + "\n")
                     sleep(60)
                 end
-                puts ("\nIt is now: " + (Time.now-local).to_s + "\nIt's time to go check on that thing you were waiting on\n").colorize(:blue)
+                puts ("\nIt is now: " + (Time.now-local).to_s + "\nIt's time to go check on that thing you were waiting on\n")
             when "second"
                 time.times do |x|
-                    puts ("It has been a second: " + (Time.now-local).to_s + "\n").colorize(:blue)
+                    puts ("It has been a second: " + (Time.now-local).to_s + "\n")
                     sleep(1)
                 end
-                puts ("\nIt is now: " + (Time.now-local).to_s + "\nIt's time to go check on that thing you were waiting on\n").colorize(:blue)
+                puts ("\nIt is now: " + (Time.now-local).to_s + "\nIt's time to go check on that thing you were waiting on\n")
             else
-                puts ("\nI don't know what kind of time value that is\n").colorize(:blue)
+                puts ("\nI don't know what kind of time value that is\n")
         end
     else
-        puts ("\nWhat are you trying to get me to do? I'm not jesus, I'm a countdown timer!\n").colorize(:blue)
+        puts ("\nWhat are you trying to get me to do? I'm not jesus, I'm a countdown timer!\n")
     end
 when "compliment"
     # This is a compliment giver [Version: The Blues]
@@ -113,30 +111,30 @@ when "compliment"
     "You look amazing",
     "Amazing pants"
     selection = compliments.sample(1)
-    puts ("\n" + selection.to_s.gsub(/[^\p{Alnum}\p{Blank}]/, '') + "!\n").colorize(:blue)
+    puts ("\n" + selection.to_s.gsub(/[^\p{Alnum}\p{Blank}]/, '') + "!\n")
 when "color"
     # This is a hexidecimal generator [Version: The Blues]
     color = "%06x" % (rand * 0xffffff) #[ http://stackoverflow.com/a/1698364/5670373 ]
-    puts ("\nI have selected the hexidecimal:\n#" + color + "\n").colorize(:blue)
+    puts ("\nI have selected the hexidecimal:\n#" + color + "\n")
 when "math"
-    puts ("\n'*' = Multiplication\n'/' = Division\n'+' = Addition\n'-' = Subtraction\nWhat is you're math problem?").colorize(:blue)
+    puts ("\n'*' = Multiplication\n'/' = Division\n'+' = Addition\n'-' = Subtraction\nWhat is you're math problem?")
     problem = gets.chomp.to_i
-    puts ("\n" + problem.to_s).colorize(:blue)
+    puts ("\n" + problem.to_s)
 else
-    puts ("\nThat's not yet one of my possible functions\n").colorize(:blue)
+    puts ("\nThat's not yet one of my possible functions\n")
 end
 # This is the part that will create the dialog choice to modify the variable
 # This will tell the program if you want to do something with it again or not
 # This removes the need for the user of the code to restart the program
 # -yes- will tell the program to continue
 # Anything that isn't -yes- such as -no- will tell the program you are done
-puts ("\nShall we do another function?\n-yes- -no-\n").colorize(:blue)
+puts ("\nShall we do another function?\n-yes- -no-\n")
 restart = gets.chomp.downcase
 case restart
     when "yes"
-        puts ("\nAlright, let's continue\n").colorize(:blue)
+        puts ("\nAlright, let's continue\n")
     else
         continue = 0
-        puts ("\nAlright, goodnight\n\n").colorize(:blue)
+        puts ("\nAlright, goodnight\n\n")
     end
 end
