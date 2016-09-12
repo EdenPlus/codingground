@@ -43,7 +43,7 @@ when "anagram"
     uniqueSortedArray = permutedArray.uniq.sort_by{|x| x.length}
     uniqueSortedArray.each do |inner|
         if source.include?(inner) == true
-            print inner.length.to_s + " letters: " + inner + "\n"
+            print "%1$s %2$s %4$*3$s %5$s" % [inner.length.to_s, "letters:", userInput.length, inner, "\n"]
         end
     end
     input.clear
