@@ -2,7 +2,7 @@
 Most things I do will go here as I primarily use coding ground. If you want the latest working versions of stuff, you can check the master branch, coding ground likes to post stuff to the default branch so I made the default branch the branch that I'm actively working with and saving to (ActivityDump).
 
 ## A hub page to reach some of the stuff I've done with HTML/CSS/PHP/JavaScript
-http://foothillertech.com/student/webdesign/2015/2nd/02_37/index.html
+http://foothillertech.com/student/webdesign/2015/2nd/02_37/index.html I no longer have access to this site so, it may not stay up, I will eventually add the file copy of these sites to a repository here since they are mostly just school projects tied with me experimenting.
 
 ## Current Projects:
 **PythonSandbox** - My Python sandbox, I use this sandbox as a way for my to experiment with stuff in Python. The stuff in here will change frequently.
