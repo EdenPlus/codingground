@@ -1,7 +1,7 @@
 # Coding Ground
 Most things I do will go here as I primarily use coding ground. If you want the latest working versions of stuff, you can check the master branch, coding ground likes to post stuff to the default branch so I made the default branch the branch that I'm actively working with and saving to (ActivityDump).
 
-## A hub page to reach some of the stuff I've done on HTML
+## A hub page to reach a portion of the stuff I've done in HTML
 http://foothillertech.com/student/webdesign/2015/2nd/02_37/index.html
 
 ## Current Projects:
