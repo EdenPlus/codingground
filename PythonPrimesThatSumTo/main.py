@@ -2,12 +2,19 @@
 # Reproduction of a lost previous version (Coding ground has been glitchy)
 # Reproduction took ~30 minutes to write
 # Original took ~60 minutes to write
-
 # I left the time function in so you can check the execution time yourself
 
-# Clocking benchmark: 10000
-# Benchmark time: ~4 seconds
+# Needed Test:
+# Benchmark: 10000
+# Time: ~3.5 seconds
+# Stress Test:
+# Benchmark: 100000
+# Time: ~277.5 Seconds (~4.6 Minutes)
 
+# Estimated increase: 
+# Input % increase: 1000%
+# Output % increase: ~7928.6% (7928.5714286%)
+# Average % increase: ~792.8% (792.8571429%)
 from time import time
 
 def isPrimeNumber(x):
