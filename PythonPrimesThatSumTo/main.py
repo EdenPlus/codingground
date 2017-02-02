@@ -6,7 +6,7 @@
 # I left the time function in so you can check the execution time yourself
 
 # Clocking benchmark: 10000
-# Benchmark time: ~16 seconds
+# Benchmark time: ~4 seconds
 
 from time import time
 
@@ -23,9 +23,9 @@ def primesThatSum(a):
     t0 = time()
     print ("Please wait a moment...")
     for b in range(a):
-        for c in range(b):
-            if b + c == a:
-                if isPrimeNumber(b):
+        if isPrimeNumber(b):
+            for c in range(b):
+                if b + c == a:
                     if isPrimeNumber(c):
                         print (str(b) + " + " + str(c) + " = " + str(a))
     t1 = time()
