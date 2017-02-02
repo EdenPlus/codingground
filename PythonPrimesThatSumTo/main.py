@@ -4,8 +4,7 @@
 # Original took ~60 minutes to write
 
 # Clocking benchmark: 10000
-# Clocked (Original): ~3 seconds
-# Clocked (Reproduction): ~3 seconds
+# Benchmark time: ~17 seconds
 
 def isPrimeNumber(x):
     if x >= 2:
