@@ -528,4 +528,4 @@ INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Cr
 COMMIT;
 
 /* Display all the records from the table */
-SELECT * FROM Listings;
+SELECT * FROM Listings ORDER BY Name, StartDate;
