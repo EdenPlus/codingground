@@ -254,7 +254,7 @@ INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Pr
 
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Sands of Inaros Quest', 50000, 200, '2016-06-03', '2016-06-05');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Ki Teer Sentinel Tail', 250000, 400, '2016-06-03', '2016-06-05');
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Primed COntinuity', 100000, 350, '2016-06-03', '2016-06-05');
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Primed Continuity', 100000, 350, '2016-06-03', '2016-06-05');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Primed Point Blank', 110000, 300, '2016-06-03', '2016-06-05');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Primed Target Cracker', 150000, 400, '2016-06-03', '2016-06-05');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Left Prisma Edo Leg', 55000, 100, '2016-06-03', '2016-06-05');
