@@ -162,7 +162,7 @@ INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Re
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Pummel', 150000, 300, '2016-02-26', '2016-02-28');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Crash Course', 200000, 330, '2016-02-26', '2016-02-28');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Full Contact', 220000, 365, '2016-02-26', '2016-02-28');
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Collison Force', 250000, 400, '2016-02-26', '2016-02-28');
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Collision Force', 250000, 400, '2016-02-26', '2016-02-28');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Mara Detron', 200000, 500, '2016-02-26', '2016-02-28');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Pyra Sugatra', 200000, 100, '2016-02-26', '2016-02-28');
 
@@ -315,7 +315,7 @@ INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Fu
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Fanged Fusillade', 150000, 375, '2016-07-29', '2016-07-31');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Prova Vandal', 250000, 410, '2016-07-29', '2016-07-31');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Prisma Gorgon', 50000, 600, '2016-07-29', '2016-07-31');
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Collision Course', 250000, 400, '2016-07-29', '2016-07-31');
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Crash Course', 250000, 400, '2016-07-29', '2016-07-31');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Scimitar Prisma Skin', 210000, 450, '2016-07-29', '2016-07-31');
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Prisma Arrows', 75000, 350, '2016-07-29', '2016-07-31');
 
