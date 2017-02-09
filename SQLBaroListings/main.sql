@@ -483,19 +483,48 @@ INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Pr
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Dragon Mod Pack', 100000, 500, 2016-12-16, 2016-12-18);
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Falcon Mod Pack', 50000, 250, 2016-12-16, 2016-12-18);
 
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
-INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('', 000, , 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Sands of Inaros Quest', 25000, 100, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Ki Teer Legs', 150000, 300, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Primed Ravage', 100000, 280, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Primed Heated Charge', 175000, 350, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Primed Slip Magazine', 200000, 280, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Liset Prisma Skin', 150000, 120, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Prisma Hecate Syandana', 300000, 250, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Affinity Booster', 200000, 450, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Credit Booster', 150000, 400, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Prisma Gorgon', 50000, 600, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Prisma Daedalus Chest', 100000, 150, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Left Prisma Daedalus Shoulder', 75000, 65, 2016-12-30, 2017-01-01);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Right Prisma Daedalus Shoulder', 75000, 65, 2016-12-30, 2017-01-01);
+
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Sands of Inaros Quest', 25000, 100, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Left Prisma Daedalus Leg', 75000, 65, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Right Prisma Daedalus Leg', 75000, 65, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Prisma Jet Sentinel Wings', 200000, 300, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Prisma Koi Sentinel Tail', 200000, 200, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Fanged Fusillade', 150000, 375, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Buzz Kill', 150000, 375, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Sweeping Serration', 150000, 375, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Maim', 150000, 375, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Ki Teer Sugatra', 250000, 250, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Grustrag Three Mark', 125000, 200, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Stalker Mark', 125000, 200, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Zanuka Hunter Mark', 125000, 200, 2017-01-13, 2017-01-15);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Primed Regen', 220000, 300, 2017-01-13, 2017-01-15);
+
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Sands of Inaros Quest', 25000, 100, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Mantis Prime Skin', 375000, 230, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Ki Teer Syandana', 500000, 500, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Ki Teer Sentinel Mask', 200000, 500, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Machete Wraith', 250000, 410, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Vermillion Storm', 175000, 385, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Astral Twilight', 175000, 385, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Tempo Royale', 175000, 385, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Elixis Redeemer Skin', 250000, 325, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Quanta Vandal', 300000, 450, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Quanta Aufeis Skin', 300000, 300, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Axi A2 Relic', 45000, 50, 2017-01-27, 2017-01-29);
+INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Credit Booster', 75000, 350, 2017-01-27, 2017-01-29);
 COMMIT;
 
 /* Display all the records from the table */
