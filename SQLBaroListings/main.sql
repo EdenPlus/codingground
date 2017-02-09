@@ -529,5 +529,6 @@ COMMIT;
 
 /* Display all the records from the table */
 .mode column
+.width 35 10 10 10 10
 .headers on
 SELECT * FROM Listings ORDER BY Name, StartDate;
