@@ -1,7 +1,7 @@
 BEGIN TRANSACTION;
 
 /* Create a table called Listings */
-CREATE TABLE Listings (/*ItemID BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE, */Name varchar(255), CreditCost int(10) UNSIGNED, DucatCost int(10) UNSIGNED, StartDate date, EndDate date);
+CREATE TABLE Listings (/*ItemID BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE, */Name varchar(255), CreditCost int(10), DucatCost int(10), StartDate date, EndDate date);
 
 /* Create few records in this table */
 INSERT INTO Listings(Name, CreditCost, DucatCost, StartDate, EndDate) VALUES('Mara Detron', 200000, 500, 2014-12-12, 2014-12-14);
