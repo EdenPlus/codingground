@@ -13,3 +13,5 @@ Most things I do will go here as I primarily use coding ground. If you want the 
 **AngularJSSandbox** - This is a sandbox website I made while teaching myself Angular. I will admit, I do very much enjoy how AngularJS works.
 
 **Bootstrap2PageLayout** - This is a website layout I made in about an hour and a half. It is simply designed to be a wireframe parody/translation of this: https://webdesignerhut.com/responsive-layout-with-html-and-css/ (And yes, I do realise, as of updating this list, that it should be named **Bootstrap2ColumnLayout**, but I'm too lazy to change it right now). Yes, the colors are all kinds of messed up, but I did that intentionally so that it would be immediately apparent how that layout is organized.
+
+**SQLBaroListings** - Abandoned project. I didn't have access to necessary resources to conveniently complete my intentions. May revisit in the future when I care enough.
